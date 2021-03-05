@@ -127,7 +127,7 @@ p{
 
 
 
-/* Please ❤ this if you like it! */
+
 
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
@@ -162,36 +162,7 @@ p{
 }
 .modal-btn:checked + label,
 .modal-btn:not(:checked) + label{
- /* position: relative;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 2;
-  height: 50px;
-  transition: all 200ms linear;
-  border-radius: 4px;
-  width: 240px;
-  letter-spacing: 1px;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-  text-align: center;
-    -ms-flex-item-align: center;
-    align-self: center;
-  border: none;
-  cursor: pointer;
-  background-color: #102770;
-  color: #ffeba7;
-  box-shadow: 0 12px 35px 0 rgba(16,39,112,.25); */
+ 
   padding: 14px 28px;
   border-radius: 5px;
   background-color: rgb(68, 67, 67);
@@ -327,94 +298,4 @@ p{
   transition: opacity 250ms 500ms ease, transform 350ms 500ms ease;
 }
 
-/*
-.logo {
-	position: absolute;
-	top: 25px;
-	left: 25px;
-	display: block;
-	z-index: 1000;
-	transition: all 250ms linear;
-}
-.logo img {
-	height: 26px;
-	width: auto;
-	display: block;
-  	filter: brightness(10%);
-	transition: filter 250ms 700ms linear;
-}
-.modal-btn:checked ~ .logo img {
-  	filter: brightness(100%);
-	transition: all 250ms linear;
-}
 
-
-@media screen and (max-width: 500px) {
-	.modal-wrap {
-		width: calc(100% - 40px);
-		padding-bottom: 15px;
-	}
-	.modal-wrap p {
-	  padding: 15px 20px 0 20px;
-	}
-}
-*/
-/*.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-*/
-/* Rounded sliders */
-/*.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-} */
